@@ -12,8 +12,8 @@ cd dist
 echo 'jabberwocky.zone' > CNAME
 
 git init
-git checkout -b main
+git checkout -b master
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:maratoid/maratoid.github.io.git main
+git push -f git@github.com:maratoid/maratoid.github.io.git master
