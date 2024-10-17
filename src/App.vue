@@ -456,7 +456,7 @@ function audioFinish() {
 }
 
 function openLink() {
-  window.open('http://www.wonderland-alice.ru/public/kurij2/JABBERWOCKY/');
+  window.open('https://www.researchgate.net/publication/358226787_ANALIZ_VARIANTOV_PEREVODA_STIHOTVORENIA-KALAMBURA_LUISA_KERROLLA_JABBERWOCKY_I_EGO_SAMOSTOATELNYJ_PEREVOD');
 }
 </script>
 
