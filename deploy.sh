@@ -12,8 +12,10 @@ cd dist
 echo 'jabberwocky.zone' > CNAME
 
 git init
-git checkout -b master
+git checkout -b main
 git add -A
-git commit -m 'deploy'
+git commit -m "deploy - $(date)"
 
-git push -f git@github.com:maratoid/maratoid.github.io.git master
+git push -f git@github.com:maratoid/jabberwocky.git main:gh-pages
+
+cd -
